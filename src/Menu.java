@@ -87,6 +87,9 @@ import java.util.Scanner;
                            }
                            System.out.println("reverse="+rev);
                            break;
+                    case 6: System.exit(0);
+                            break;
+                    default:System.out.println("invalid");
 
 
 
