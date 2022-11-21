@@ -31,6 +31,7 @@ import java.util.Scanner;
                         } else {
                             System.out.println("largest=" + c);
                         }
+                        break;
                     case 2:
                         System.out.println("enter 3 numbers");
                         a = sc.nextInt();
@@ -49,6 +50,7 @@ import java.util.Scanner;
                         } else {
                             System.out.println("Smallest=" + c);
                         }
+                        break;
 
 
                     case 3: System.out.println("Enter a number");
@@ -64,6 +66,7 @@ import java.util.Scanner;
                         } else {
                             System.out.println("Not prime");
                         }
+                        break;
 
                     case 4:System.out.println("Enter a number");
                         a = sc.nextInt();
@@ -73,6 +76,18 @@ import java.util.Scanner;
                         else{
                             System.out.println("odd");
                         }
+                        break;
+                    case 5:System.out.println("enter a number");
+                           a=sc.nextInt();
+                           int rev=0;
+                           while (a!=0){
+                              int r=a%10;
+                               rev=rev*10+r;
+                               a=a/10;
+                           }
+                           System.out.println("reverse="+rev);
+                           break;
+
 
 
 
