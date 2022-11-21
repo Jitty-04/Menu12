@@ -50,24 +50,30 @@ import java.util.Scanner;
                             System.out.println("Smallest=" + c);
                         }
 
-                    case 3:System.out.println("Enter a number");
-                           a=sc.nextInt();
-                           boolean flag =true;
-                           for(int i=2;i<a/2;i++) {
-                               if (a % 2 == 0) {
-                                   flag = false;
-                               }
-                           }
-                           if(flag=true) {
-                               System.out.println("prime");
-                           }
-                           else {
-                               System.out.println("Not prime");
 
+                    case 3: System.out.println("Enter a number");
+                        a = sc.nextInt();
+                        boolean flag = true;
+                        for (int i = 2; i < a / 2; i++) {
+                            if (a % 2 == 0) {
+                                flag = false;
+                            }
+                        }
+                        if (flag = true) {
+                            System.out.println("prime");
+                        } else {
+                            System.out.println("Not prime");
+                        }
 
+                    case 4:System.out.println("Enter a number");
+                        a = sc.nextInt();
+                        if(a%2==0){
+                            System.out.println("even");
+                        }
+                        else{
+                            System.out.println("odd");
+                        }
 
-
-                           }
 
 
 
