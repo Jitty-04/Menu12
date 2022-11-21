@@ -31,6 +31,25 @@ import java.util.Scanner;
                         } else {
                             System.out.println("largest=" + c);
                         }
+                    case 2:case 1:
+                        System.out.println("enter 3 numbers");
+                        a = sc.nextInt();
+                        b = sc.nextInt();
+                        c = sc.nextInt();
+                        if (a < b) {
+                            if (a < c) {
+                                System.out.println("Smallest=" + a);
+
+                            } else {
+                                System.out.println("Smallest=" + b);
+                            }
+
+                        } else if (b < c) {
+                            System.out.println("Smallest=" + b);
+                        } else {
+                            System.out.println("Smallest=" + c);
+                        }
+
 
                 }
 
