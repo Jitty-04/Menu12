@@ -23,7 +23,7 @@ import java.util.Scanner;
                                 System.out.println("Largest=" + a);
 
                             } else {
-                                System.out.println("Largest=" + b);
+                                System.out.println("Largest=" + c);
                             }
 
                         } else if (b > c) {
@@ -55,15 +55,17 @@ import java.util.Scanner;
 
                     case 3: System.out.println("Enter a number");
                         a = sc.nextInt();
-                        boolean flag = true;
+                        boolean flag = false;
                         for (int i = 2; i < a / 2; i++) {
                             if (a % 2 == 0) {
-                                flag = false;
+                                flag = true;
                             }
                         }
-                        if (flag = true) {
+                        if (!flag) {
                             System.out.println("prime");
-                        } else {
+                        }
+                        else
+                        {
                             System.out.println("Not prime");
                         }
                         break;
